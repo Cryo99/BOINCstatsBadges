@@ -10,7 +10,7 @@
 // @grant       GM_getValue
 // @grant       GM_log
 // @grant       GM_openInTab
-// @version     3.0.0
+// @version     3.0.1
 // @icon        http://s20.postimage.org/v41hivk09/bbadges.png
 // @require		https://greasyfork.org/scripts/2855-gm-config/code/GM_config.js?version=9272
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
@@ -122,16 +122,16 @@
 		},
 		de: {
 			'ButtonSave': 'Speichern',
-			'ButtonSaveTip': 'Änderungen speichern und Fenster schließen',
+			'ButtonSaveTip': 'ï¿½nderungen speichern und Fenster schlieï¿½en',
 			'ButtonCancel': 'Abbrechen',
-			'ButtonCancelTip': 'Fenster schließen (Änderungen verwerfen)',
-			'ResetLinkName': 'Zurücksetzen',
-			'ResetLinkTip': 'Alle Werte auf Defaults zurücksetzen',
-			'ConfirmOverwriteFromClipboard': 'Sollen die Einstellungen wirklich mit den Daten vom Clipboard überschrieben werden?',
+			'ButtonCancelTip': 'Fenster schlieï¿½en (ï¿½nderungen verwerfen)',
+			'ResetLinkName': 'Zurï¿½cksetzen',
+			'ResetLinkTip': 'Alle Werte auf Defaults zurï¿½cksetzen',
+			'ConfirmOverwriteFromClipboard': 'Sollen die Einstellungen wirklich mit den Daten vom Clipboard ï¿½berschrieben werden?',
 			'SettingsSaved': 'Einstellungen gespeichert.',
 			'SaveAborted': 'Aktion abgebrochen.',
 			'PromptSettingsPaste': 'Bitte Einstellungen hier hineinkopieren:',
-			'ConfirmOverwriteFromPaste': 'Sicher, dass die Einstellungen mit den kopierten Daten überschrieben werden sollen?'
+			'ConfirmOverwriteFromPaste': 'Sicher, dass die Einstellungen mit den kopierten Daten ï¿½berschrieben werden sollen?'
 		},
 		nl: {
 			'ButtonSave': 'Opslaan',
@@ -702,11 +702,11 @@
 		br: {
 			"Badges": "Emblemas",
 			"Project name": "Nome do projeto",
-			"Unable To Connect": "Não é possível conectar ao projeto."
+			"Unable To Connect": "Nï¿½o ï¿½ possï¿½vel conectar ao projeto."
 		},
 		cz: {
 			"Badges": "Odznaky",
-			"Project name": "Název projektu",
+			"Project name": "Nï¿½zev projektu",
 			"Unable To Connect": "Nelze se pripojit k projektu."
 		},
 		cn: {
@@ -732,7 +732,7 @@
 		fi: {
 			"Badges": "Merkit",
 			"Project name": "Hankkeen nimi",
-			"Unable To Connect": "Ei voida yhdistää hankkeeseen."
+			"Unable To Connect": "Ei voida yhdistï¿½ï¿½ hankkeeseen."
 		},
 		fr: {
 			"Badges": "Emblem",
