@@ -15,8 +15,8 @@ You can try increasing these values if you find that the badges aren't appearing
 
 You can find your stats on BOINCstats by going to your member page for any BOINC project and clicking the "BOINCstats" link next to "Cross-project statistics" in the "Computing and credit" section, by visiting [BOINCstats.com][1], entering your BOINC user name into the search box at top left and hitting return or by browsing to one of these URLs:
 
-http&#58;//boincstats\.com/en/stats/-1/user/detail/**userid**/  
-http&#58;//boincstats\.com/en/stats/-1/user/detail/**cpid**/
+http&#58;//boincstats&#46;com/en/stats/-1/user/detail/**userid**/  
+http&#58;//boincstats&#46;com/en/stats/-1/user/detail/**cpid**/
 
 where **userid** is your BOINCstats user ID and **cpid** is your cross-project ID, also available from any BOINC project member page in "Cross-project statistics".
 
