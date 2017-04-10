@@ -1,7 +1,7 @@
 # BOINCstatsBadges
 
 ### Description
-This script adds a new tab containing badge statistics for projects that award badges to your BOINCstats.com statistics page. Enter your BOINC project user IDs into the configuration dialogue which can be accessed from GreaseMonkey's "User Script Commands" menu. The script will then retrieve your badge statistics and display them.
+This script adds a new tab containing badge statistics for projects that award badges to your [BOINCstats.com](https://boincstats.com/) statistics page. Enter your BOINC project user IDs into the configuration dialogue which can be accessed from GreaseMonkey's "User Script Commands" menu. The script will then retrieve your badge statistics and display them.
 
 It works with all of the thirteen languages available on the site. The basic layout is localized but anyone who would like to assist with corrections or the remaining language strings for the configuration dialogue is welcome to contact me.
 
@@ -15,8 +15,8 @@ You can try increasing these values if you find that the badges aren't appearing
 
 You can find your stats on BOINCstats by going to your member page for any BOINC project and clicking the "BOINCstats" link next to "Cross-project statistics" in the "Computing and credit" section, by visiting BOINCstats.com, entering your BOINC user name into the search box at top left and hitting return or by browsing to one of these URLs:
 
-http&#58;//boincstats.com/en/stats/-1/user/detail/**userid**/  
-http&#58;//boincstats.com/en/stats/-1/user/detail/**cpid**/
+<http&#58;//boincstats.com/en/stats/-1/user/detail/**userid**/>  
+<http&#58;//boincstats.com/en/stats/-1/user/detail/**cpid**/>
 
 where **userid** is your BOINCstats user ID and **cpid** is your cross-project ID, also available from any BOINC project member page in "Cross-project statistics".
 
