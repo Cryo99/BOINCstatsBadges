@@ -10,7 +10,7 @@
 // @grant       GM_getValue
 // @grant       GM_log
 // @grant       GM_openInTab
-// @version     3.0.1
+// @version     3.1.0
 // @icon        http://s20.postimage.org/v41hivk09/bbadges.png
 // @require		https://greasyfork.org/scripts/2855-gm-config/code/GM_config.js?version=9272
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
