@@ -24,6 +24,10 @@ where **userid** is your BOINCstats user ID and **cpid** is your cross-project I
 
 ### History
 
+#### Version 3.1.0
+* Fixed tab generation after site change.
+* Removed Bitcoin Utopia due to site closure.
+
 #### V 3.0.1
 * Fixed row highlighting.
 * Added Amicable Numbers.
