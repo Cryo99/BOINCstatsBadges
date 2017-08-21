@@ -95,6 +95,10 @@
 // -Fixed row highlighting.
 // -Added Amicable Numbers.
 //
+// Version 3.1.0
+// -Fixed tab generation after site change.
+// -Removed Bitcoin Utopia due to site closure.
+//
 
 (function()
 {
@@ -794,10 +798,10 @@
 	BBadges.initLang();
 
 	// Insert a new tab in the header.
-	$("#main .ui-tabs ul").append("<li id=\"tabBadges\" class=\"ui-state-default ui-corner-top\"><a href=\"#\"><span>" + GM_config.lang('Badges') + "</span></a></li>");
+	$("#main ul.menu_header").append("<li id=\"tabBadges\" class=\"menu_item\"><a href=\"#\"><span>" + GM_config.lang('Badges') + "</span></a></li>");
 	$('#tabBadges').click(function(e){
 		// Set selected styles on our tab and remove them from the currently selected one.
-		var selectedTab = $(".ui-tabs-selected"),
+		var selectedTab = $(".menu_selected"),
 			tabIndex = selectedTab.index();
 			
 		if(tabIndex == 5){
@@ -805,8 +809,8 @@
 			return;
 		}
 		
-		selectedTab.removeClass('ui-tabs-selected ui-state-active');
-		$('#tabBadges').addClass('ui-tabs-selected ui-state-active');
+		selectedTab.removeClass('menu_selected');
+		$('#tabBadges').addClass('menu_selected');
 		// Check whether the current tab is charts and, if so, remove them and create the stats table.
 		if(tabIndex == 3){
 			// Remove charts.
@@ -855,14 +859,6 @@
 		atlasHTML += BBadges.idAtlas ? '</a>' : '';
 		atlasHTML += '</td><td id="atlas"></td></tr>\n';
 		$(atlasHTML).appendTo('#tblStats');
-
-		// Bitcoin Utopia
-		var bitcoinUtopiaHTML = '<tr class="odd"><td>';
-		bitcoinUtopiaHTML += BBadges.idBitcoinUtopia ? '<a href="' + BBadges.bitcoinUtopia.root + BBadges.userPage + BBadges.idBitcoinUtopia + '">' : '';
-		bitcoinUtopiaHTML += BBadges.bitcoinUtopia.name;
-		bitcoinUtopiaHTML += BBadges.idBitcoinUtopia ? '</a>' : '';
-		bitcoinUtopiaHTML += '</td><td id="bitcoinutopia"></td></tr>\n';
-		$(bitcoinUtopiaHTML).appendTo('#tblStats');
 
 		// Collatz Conjecture.
 		var collatzHTML = '<tr class="even"><td>';
